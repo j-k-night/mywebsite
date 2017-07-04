@@ -1,0 +1,77 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+
+}
+
+body {
+	/*border-style: solid; border-width: 3px; border-color: blue;*/
+}
+header {
+	background-color: lightblue;
+	overflow: hidden;
+}
+h1 {
+	text-align: center;
+	font-family: 'GidoleRegular'; 
+   	font-weight: normal; 
+   	font-style: normal;
+   	margin-top: 25px;
+   	margin-bottom: 25px;
+}
+footer {
+	clear: both;
+	text-align: center;
+	overflow: hidden;
+	background-color: lightblue;
+}
+p {
+	margin: 25px;
+}
+#chessboard {
+	/*border-style: solid; border-width: 3px; border-color: red;*/
+	height: 600px;
+	width: 75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	
+}
+.row {
+	/*border-style: solid; border-width: 3px; border-color: orange;*/
+	overflow: hidden;
+	height: 12.5%;
+	clear: both;
+
+}
+#chessboard_container {
+	text-align: center;
+	/*border-style: solid; border-width: 3px; border-color: pink;*/
+	overflow: hidden;
+	background-image: url("pebbles.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+
+}
+.square {
+	/*border-style: dashed; border-width: 2px; border-color: blue;*/
+	float: left;
+	width: 12.5%;
+	height: 100%;
+}
+/*
+#left_gap, #right_gap {
+	width: 12.5%;
+	float: left;
+}*/
+.square1, .square3, .square5, .square7 {
+	background-color: white;
+}
+.square0, .square2, .square4, .square6, .square8 {
+	background-color: lightgrey;
+}
+img {
+	width: 50%;
+}
