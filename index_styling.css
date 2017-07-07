@@ -258,6 +258,10 @@
 		font-size: 20px;
 		color: #efd018;
 	}
+	.footer_contact_info {
+		width: 25%;
+		float: left;
+	}
 	#section_5 {
 		/*border-style: solid; border-width: 2px; border-color: blue;*/
 	}
