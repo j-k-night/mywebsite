@@ -250,6 +250,7 @@
 		color: white;
 		padding: 15px;
 		padding-bottom: 30px;
+		overflow: hidden;
 	}
 	#footer div {
 		
