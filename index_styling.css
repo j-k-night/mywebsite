@@ -1,0 +1,389 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	/*border-style: solid; border-width: 2px; border-color: blue;*/
+}
+#menu_button {
+	display: none;
+}
+.mobile_links {
+	display: none;
+}
+
+
+@media screen and (max-width: 680px) {
+	.dropdown {
+		display: none;
+	}
+	#menu_button {
+		display: initial;
+	}
+	.m_menu_open .mobile_links {
+		display: block;
+
+	}
+}
+
+@media screen and (min-width: 680px) {
+	#section_1 {
+		/*border-style: solid; border-width: 2px; border-color: blue;*/
+		overflow: hidden;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		background-color: #efd018;
+		color: #191919;
+		font-size: 18px;
+	}
+	#section_1_1 {
+		/*border-style: dashed; border-width: 2px; border-color: red;*/
+		width: 33.33%;
+		float: left;
+		padding-left: 10px;
+	}
+	#section_1_2 {
+		/*border-style: dashed; border-width: 2px; border-color: orange;*/
+		width: 33.33%;
+		float: left;
+	}
+	#section_1_3 {
+		/*border-style: dashed; border-width: 2px; border-color: red;*/
+		width: 33.33%;
+		float: left;
+		
+	}
+	
+	#section_2 {
+		/*border-style: solid; border-width: 2px; border-color: purple;*/
+		clear:both;
+
+	}
+	#section_2_1 {
+		clear: left;
+	}
+	.nav_links {
+		/*border-style: dashed; border-width: 2px; border-color: pink;*/
+		width: 25%;
+		float: left;
+		text-align: center;
+		overflow: visible;
+		padding: 12px;
+		background-color: #111111;
+		color: #FFFAF0;
+		font-size: 20px;
+		border-bottom: medium solid #111111;
+	}
+	#section_2_3 {
+		background-color: ;
+	}
+	.nav_links:hover {
+		border-bottom: medium solid #efd018;
+	}
+	.dropdown {
+	    position: relative;
+	    display: inline-block;
+
+	}
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: rgba(255,255,255, 0.9);
+	    /*min-width: 160px;*/
+	    width: 75%;
+
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    margin-top: 1.5px;
+	    z-index: 1;
+	    margin-left: 12.5%;
+	}
+	.dropdown-content p {
+		margin: 0px;
+		padding: 12px 16px;
+		
+	}
+	.dropdown-content p:hover {
+		background-color: red;
+	}
+	.dropdown:hover .dropdown-content {
+	    display: block;
+	}
+	#section_3 {
+		/*border-style: solid; border-width: 2px; border-color: orange;*/
+		clear: both;
+		text-align: center;
+		padding-top: 270px;
+		padding-bottom: 150px;
+		background-image: url("boise.jpg");
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		color: rgb(255, 255, 255);
+		background-color: rgba(0, 0, 0, 0.5);
+		background-blend-mode: multiply;
+	}
+	#section_3_1 {
+		/*border-style: dashed; border-width: 2px; border-color: pink;*/
+		padding: 10px;
+		font-size: 50px;
+		color: #efd018;
+	}
+	#section_3_2 {
+		/*border-style: dashed; border-width: 2px; border-color: gray;*/
+		padding: 10px;
+	}
+	#section_3_3 {
+		/*border-style: dashed; border-width: 2px; border-color: pink;*/
+		padding: 10px;
+		color: #efd018;
+	}
+	#section_4 {
+		/*border-style: solid; border-width: 2px; border-color: red;*/
+		overflow: hidden;
+		text-align: center;
+		background-color: rgb(235,235,235);
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-bottom: 50px;
+	}
+	#section_4_0_a {
+		padding: 25px;
+		padding-left: 90px;
+		padding-right: 90px;
+		font-size: 40px;
+	}
+	#section_4_0_b {
+		clear: both;
+		padding: 25px;
+		padding-top:0px;
+		padding-left: 90px;
+		padding-right: 90px;
+		font-size: 20px;
+	}
+	#section_4_0_c {
+		font-size: 25px;
+		padding: 15px;
+
+		font-weight: 900;
+
+	}
+	#section_4_1 {
+		/*border-style: dashed; border-width: 2px; border-color: pink;*/
+		clear: left;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		width: 18%;
+		float: left;
+		margin-right: 2.5%;
+		background-color: rgba(255, 255, 255, 0.9);
+		/*border-radius: 10px;*/
+	}
+	#section_4_1:hover, #section_4_2:hover, #section_4_3:hover, #section_4_4:hover, #section_4_5:hover {
+		color: #efd018;
+		background-color: rgba(0, 0, 0, 0.75);
+		
+	}
+	#one, #two, #three {
+		width: 33.33%;
+		float: left;
+		color: rgb(235,235,235);
+	}
+	#one, #three {
+		width: 45%;
+	}
+	#two {
+		width: 10%;
+		padding-bottom: 15px;
+	}
+	#two {
+		border-top: medium solid #efd018;
+	}
+	#section_4_2 {
+		/*border-style: dashed; border-width: 2px; border-color: gray;*/
+
+		padding-top: 20px;
+		padding-bottom: 10px;
+		width: 18%;
+		float: left;
+		margin-right: 2.5%;
+		background-color: rgba(255, 255, 255, 0.9);
+		/*border-radius: 10px;*/
+	}
+
+	#section_4_3 {
+		/*border-style: dashed; border-width: 2px; border-color: pink;*/
+		padding-top: 20px;
+		padding-bottom: 10px;
+		width: 18%;
+		float: left;
+		margin-right: 2.5%;
+		background-color: rgba(255, 255, 255, 0.9);
+		/*border-radius: 10px;*/
+	}
+	#section_4_4 {
+		/*border-style: dashed; border-width: 2px; border-color: pink;*/
+		padding-top: 20px;
+		padding-bottom: 10px;
+		width: 18%;
+		margin-right: 2.5%;
+		float: left;
+		background-color: rgba(255, 255, 255, 0.9);
+		/*border-radius: 10px;*/
+	}
+	#section_4_5 {
+		/*border-style: dashed; border-width: 2px; border-color: pink;*/
+		padding-top: 20px;
+		padding-bottom: 10px;
+		width: 18%;
+		float: left;
+		background-color: rgba(255, 255, 255, 0.9);
+		/*border-radius: 10px;*/
+	}
+	.works {
+		clear: left;
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+	#footer {
+		background-color: #111111;
+		color: white;
+		padding: 15px;
+	}
+	#footer div {
+		padding: 5px;
+		font-size: 17.5px;
+	}
+	#business_name {
+		font-size: 20px;
+		color: #efd018;
+	}
+	#section_5 {
+		/*border-style: solid; border-width: 2px; border-color: blue;*/
+	}
+	#section_5_1 {
+		/*border-style: dashed; border-width: 2px; border-color: pink;*/
+		padding: 10px;
+		text-align: center;	
+	}
+	#section_5_2 {
+		/*border-style: dashed; border-width: 2px; border-color: gray;*/
+		padding: 10px;
+		text-align: center;
+	}
+	#section_6 {
+		border-style: solid; border-width: 2px; border-color: orange;
+		clear: both;
+		overflow: hidden;
+	}
+	#section_6_1 {
+		border-style: dashed; border-width: 2px; border-color: pink;
+		padding: 10px;
+		width: 70%;
+		float: left;
+	}
+	#section_6_2 {
+		border-style: dashed; border-width: 2px; border-color: gray;
+		padding: 10px;
+		width: 30%;
+		float: right;
+	}
+	#section_7 {
+		border-style: solid; border-width: 2px; border-color: red;
+		clear: both;
+		overflow: hidden;
+
+	}
+	#section_7_1 {
+		border-style: dashed; border-width: 2px; border-color: pink;
+		padding: 10px;
+		width: 30%;
+		float: left;
+
+	}
+	#section_7_2 {
+		border-style: dashed; border-width: 2px; border-color: gray;
+		padding: 10px;
+		width: 70%;
+		float: right;
+	}
+	#section_8 {
+		border-style: solid; border-width: 2px; border-color: green;
+		clear: both;
+		overflow: hidden;
+	}
+	#section_8_1 {
+		border-style: dashed; border-width: 2px; border-color: pink;
+		padding: 10px;
+		width: 70%;
+		float: left;
+	}
+	#section_8_2 {
+		border-style: dashed; border-width: 2px; border-color: gray;
+		padding: 10px;
+		width: 30%;
+		float: right;
+	}
+	#section_9 {
+		border-style: solid; border-width: 2px; border-color: blue;
+		clear: both;
+	}
+	#section_9_1 {
+		border-style: dashed; border-width: 2px; border-color: pink;
+		padding: 10px;
+		text-align: center;
+	}
+	#section_9_2 {
+		border-style: dashed; border-width: 2px; border-color: gray;
+		padding: 10px;
+		text-align: center;
+	}
+	#section_10 {
+		border-style: solid; border-width: 2px; border-color: green;
+		padding: 60px;
+
+	}
+	#section_11 {
+		border-style: solid; border-width: 2px; border-color: orange;
+		overflow: hidden;
+	}
+	#section_11_a {
+		float: left;
+		width: 25%;
+	}
+	#section_11_b {
+		float: right;
+		width: 75%;
+	}
+	#section_11_a_1 {
+		border-style: dashed; border-width: 2px; border-color: pink;
+		
+		
+	}
+	#section_11_a_2 {
+		border-style: dashed; border-width: 2px; border-color: gray;
+		
+		
+	}
+	#section_11_b_1 {
+		border-style: dashed; border-width: 2px; border-color: lightgreen;
+		
+		
+	}
+	#section_11_b_2 {
+		border-style: dashed; border-width: 2px; border-color: blue;
+		
+		
+	}
+
+	/*
+	How to style a hover shadow effect
+
+	element:hover {
+		-webkit-transition-duration: 0.5s; - for Safari
+		transition-duration: 0.5s;
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	}
+	
+	 */
+}
