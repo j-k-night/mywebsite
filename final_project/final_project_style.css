@@ -8,7 +8,7 @@ body {
 	background-image: url("../boise.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.75);
 	color: rgb(255, 255, 255);
 	background-blend-mode: multiply;
 }
