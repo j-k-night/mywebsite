@@ -47,3 +47,7 @@ h1 {
 .thumbnail {
 	width: 300px;
 }
+
+a, a:visited {
+	color: rgb(255, 255, 255);
+}
