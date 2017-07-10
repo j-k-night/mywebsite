@@ -1,0 +1,37 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+	padding: 5px;
+}
+.menu {
+	overflow: hidden;
+}
+
+.menu_option {
+	width: 16.66%;
+	float: left;
+	text-align: center;
+}
+
+.stop_float {
+	clear: both;
+}
+
+textarea {
+	height: 200px;
+	width: 90%;
+}
+
+ul {
+	padding-left: 100px;
+	
+}
+
+h1 {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.thumbnail {
+	width: 300px;
+}
