@@ -6,6 +6,11 @@
 }
 body {
 	background-image: url("../boise.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: rgb(255, 255, 255);
+	background-blend-mode: multiply;
 }
 .menu {
 	overflow: hidden;
