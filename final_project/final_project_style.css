@@ -2,6 +2,7 @@
 	margin: 0px;
 	box-sizing: border-box;
 	padding: 5px;
+	font-family: 'Lato', sans-serif;
 }
 body {
 	background-image: url("../boise.jpg");
