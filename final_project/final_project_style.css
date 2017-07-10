@@ -3,6 +3,9 @@
 	box-sizing: border-box;
 	padding: 5px;
 }
+body {
+	background-image: url("../boise.jpg");
+}
 .menu {
 	overflow: hidden;
 	
