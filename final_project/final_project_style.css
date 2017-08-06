@@ -4,10 +4,16 @@
 	padding: 5px;
 	font-family: 'Lato', sans-serif;
 }
+
 body {
 	background-color: rgba(0, 0, 0, 0.9);
 	color: rgb(255, 255, 255);
 	background-blend-mode: multiply;
+}
+header {
+	height: 100px;
+	background-image: url('brick_wall.jpg');
+	background-size: cover;
 }
 .menu {
 	overflow: hidden;
@@ -17,7 +23,7 @@ body {
 }
 
 .menu_option {
-	width: 16.66%;
+	width: 14.28%;
 	float: left;
 	text-align: center;
 }
@@ -47,4 +53,50 @@ h1 {
 
 a, a:visited {
 	color: rgb(255, 255, 255);
+	padding: 0px;
+}
+
+#error_msg {
+	color: red;
+}
+
+#yoga_photo {
+	width: 70%;
+}
+
+#video_container {
+	width: 50%;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px; /* top = 0, L & R = 0, bottom = footer height = 100px */
+    padding: 25px;
+}
+
+footer {
+    background-color: rgb(153,50,204);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 35px;
+    width: 100%;
+    overflow:hidden;
+}
+
+.class_name, .reflection_heading {
+	font-size: 25px;
+}
+.class_description, .reflection, p {
+	font-size: 20px;
+}
+.credits, .instructor {
+	font-size: 18px;
+}
+#creative_paragraph {
+	margin-bottom: 25px;
 }

@@ -13,17 +13,20 @@
 			<div class = "menu_option"><a href = "artifacts.html">Artifacts</a></div>
 			<div class = "menu_option"><a href = "module_assignments.html">Module Assignments</a></div>
 			<div class = "menu_option"><a href = "contact_me.html">Contact Me</a></div>
+			<div class = "menu_option"><a href = "creative_page.html">Creative Page</a></div>
 		</div>
+		<header></header>
 		<h1 class = "stop_float">Contact Me</h1>
-		<form action="thank_you.html" method="get" name="myContact">
+		<p id = "error_msg"></p>
+		<form action="thank_you.html" method="get" name="myContact" onsubmit = "return ValidateForm();">
 			<div id = "username">
-				<label>Username:<br>
-	  				<input type="text" name="username" value="">
+				<label>Name:<br>
+	  				<input type="text" name="name" value="">
 	  			</label>
   			</div>
   			<div>
 	  			<label>Subject:<br>
-	  				<input type="text" name="lastname" value="">
+	  				<input type="text" name="subject" value="">
 	  			</label>
 	  		</div>
 	  		<div>
@@ -35,5 +38,8 @@
 
 
 		</form>
+		<footer class = 'foot'></footer>
+		<script type = "text/javascript" src = "contact_me_validation.js"></script>
+		<script type = "text/javascript" src = "function.js"></script>
 	</body>
 </html>
