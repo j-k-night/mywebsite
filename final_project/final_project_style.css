@@ -100,3 +100,8 @@ footer {
 #creative_paragraph {
 	margin-bottom: 25px;
 }
+.checker_image {
+	border:0;
+	width:88px;
+	height:41px;
+}
