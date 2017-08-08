@@ -27,5 +27,5 @@ function ValidateForm() {
 	}
 
 	document.getElementById('error_msg').innerHTML = errors;
-	return validName && validSubj && validMsg;
+	return validName && validSubj && validMsg && validEmail;
 };
