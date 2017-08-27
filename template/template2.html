@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			/* Reset default browser styling */
+			* {
+				padding: 0px;
+				margin: 0px;
+				text-align: center;
+				box-sizing: border-box;
+			}
+			/* mobile first */
+			h1, h2, h3, h4, h5, h6 {
+				border: 2px dashed pink;
+			}
+			div, footer {
+				border: 2px solid gray;
+			}
+
+			@media screen and (min-width: 480px) {
+			    .tres-amigos {
+			    	width: 33.33%;
+			    	float: left;
+			    	
+			    }
+			    #rule-of-3 {
+			    	overflow: hidden;
+			    }
+			    #contact {
+			    	clear: both;
+			    }
+			}
+		</style>
+	</head>
+	<body>
+		<div id = "hero">
+			<h1>Name or headline</h1>
+			<h2>Tagline tagline tagline tagline tagline tagline.</h2>
+		</div>
+		<div id = "rule-of-3">
+			<div class = "tres-amigos">
+				<div>Icon</div>
+				<h3>Adjective</h3>
+				<p>Paragraph paragraph paragraph</p>
+			</div>
+			<div class = "tres-amigos">
+				<div>Icon</div>
+				<h3>Adjective</h3>
+				<p>Paragraph paragraph paragraph</p>
+			</div>
+			<div class = "tres-amigos">
+				<div>Icon</div>
+				<h3>Adjective</h3>
+				<p>Paragraph paragraph paragraph</p>
+			</div>
+		</div>
+		<div id = "contact">
+			<h1>Contact Me</h1>
+			<div>
+				<form method="POST" action="http://formspree.io/steve.rockwell.trevor41@gmail.com">
+					<div>
+						<input type="email" name="email" placeholder="Your email">
+					</div>
+					<div>
+						<textarea name="message" placeholder="Let's work together!"></textarea>
+					</div>
+					<div>
+						<button type="submit">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<footer>footer here</footer>
+	</body>
+</html>
